@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Shopee</title>
+    <style>
+        @import url('css/default.css');
+        @import url('css/gnb.css');
+        .banners{
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        .left-banners {
+            margin-right: 5px;
+        }
+        .rolling-banner{
+            width: 815px;
+            border-radius: 2px;
+            
+        }
+        .right-banners > img{
+            width: 400px;
+            border-radius: 2px;
+            margin-bottom: 5px;
+        }
+        /* mulai pertama */
+        .bottom-section{
+            width: 1200px;
+            justify-content: space-between; /* membuat icon secara rapi dengan margin yang rata */
+            margin-top: 20px;
+            align-items: flex-start;
+            
+            
+        }
+        .bottom-section >li{
+            width: 100px;
+            text-align: center;
+        }
+        .bottom-section >li > img{
+            width: 45px;
+            margin-bottom: 5px;
+        }
+        .swiper {
+            width: 815px;
+          }
+        .swiper-button-prev {
+            background-color: rgba(0, 0, 0,.4);
+            padding: 5px;
+        }
+        .swiper-button-next {
+            background-color: rgba(0,0,0,.4);
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gnb">
+        <div class="top flex-row">  
+            <div class="left flex-row">
+                <li>Seller Centre</li>
+                <li>|</li>
+                <li>Mulai Jual</li>
+                <li>|</li>
+                <li>Download</li>
+                <li>|</li>
+                <li>Ikuti Kami di</li>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-person-circle"></i>
+            </div>
+            
+            <div class="right flex-row">
+                <li><i class="bi bi-bell"></i>Notifikasi</li>
+                <li><i class="bi bi-question-circle"></i>Bantuan</li>
+                <li><i class="bi bi-globe"></i>Bahasa Indonesia<i class="bi bi-caret-down"></i></li>
+                <li>Daftar</li>
+                <li>|</li>
+                <li>Login</li>
+                </div>
+        </div>
+        
+        <div class="bottom flex-row">
+            <img width="150" src="./image/logo_shopee.png" alt="">
+            <div class="search flex-col">
+                <div class="search-box flex-row">
+                    <input type="text">
+                    <button><i class="bi bi-search"></i></button>
+                </div>
+                <div class="tags flex-row">
+                    <li>Tas Wanita</li>
+                    <li>Sepatu Wanita</li>
+                    <li>Jam Tangan Wanita</li>
+                    <li>Kemeja Wanita</li>
+                    <li>Sepatu Pria</li>
+                    <li>Kacamata</li>
+                    <li>Celena Pendek Pria</li>
+                    <li>Masker</li>
+                 </div>
+            </div>
+            <div class="cart">
+                <i class="bi bi-cart"></i>
+            </div>
+        </div>
+    </div>
+    <div class="banners flex-col">
+        <div class="top-section flex-row">
+            <div class="left-banners swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img class="rolling-banner" src="image/banners/banner_1.png" alt=""></div>
+                      <div class="swiper-slide"><img class="rolling-banner" src="image/banners/banner_2.png" alt=""></div>
+                      <div class="swiper-slide"><img class="rolling-banner" src="image/banners/banner_3.png" alt=""> </div>
+                      <div class="swiper-slide"><img class="rolling-banner" src="image/banners/banner_4.png" alt=""> </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> 
+            </div>
+               
+            
+            <div class="right-banners flex-col">
+                <img src="image/banners/banner_right_top.png" alt="">
+                <img src="image/banners/banner_right_bottom.png" alt=""> 
+            </div>
+        </div>
+        <div class="bottom-section flex-row">
+            <!-- ubah imagenya -->
+            <li class="flex-col">
+                <img src="image/icons/1.png" alt="">
+                <span>Shopee Pilih Lokal</span>
+            </li>
+            <li class="flex-col">
+                <img src="image/icons/2.png" alt="">
+                <span>Elektronik 100% ORI</span>
+            </li>
+            <li class="flex-col">
+                <img src="image/icons/3.png" alt="">
+                <span>Pulsa, Tagihan, dan Tiket</span>
+            </li>
+            <li class="flex-col">
+                <img src="image/icons/4.png" alt="">
+                <span>inFashion</span>
+            </li>
+            <li class="flex-col">
+                <img src="image/icons/5.png" alt="">
+                <span>Shopee Supermarket</span>
+            </li>
+            <li class="flex-col">
+                <img src="image/icons/6.png" alt="">
+                <span>Bayar Di Tempat</span>
+            </li>
+            <li class="flex-col">
+                <img src="image/icons/7.png" alt="">
+                <span>Murah Lebay</span>
+            </li>
+            <li class="flex-col">
+                <img src="image/icons/8.png" alt="">
+                <span>Gratis Ongkir dan Voucher</span>
+            </li>
+            <li class="flex-col">
+                <img src="image/icons/9.png" alt="">
+                <span>Shopee Barokah</span>
+            </li>
+            <li class="flex-col">
+                <img src="image/icons/10.png" alt="">
+                <span>Semua Promo</span>
+            </li>
+        </div>
+    </div>
+    <script> const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+      
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      
+      });</script>
+    
+</body>
+</html>
